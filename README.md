@@ -8,9 +8,11 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with good technical b
 **Here's a quick summary about me**:
 
 - 😊 Pronouns: He/him
-- 💡 Fun fact: I'm currently a Frontend tutor at AltSchool Africa [School of Software Engineering](https://altschoolafrica.com/schools/engineering).
-- 💼 Job interests: Software Engineer, Front Engineer, or UI Engineer.
-- 📫 You can [view my cv](https://cv.oluwasetemi.dev/) and contact me by emailing mailtosetemiojo@gmail.com.
+- 💡 Fun fact: I'm currently part-time tutor at AltSchool Africa [School of Software Engineering](https://altschoolafrica.com/schools/engineering) Class of 2022.
+- 🌱 I’m currently learning TypeScript, JavaScript, Reactjs, and Python.
+- 😊 I’m looking for opportunities to help contribute to open source projects.
+- 💼 Job interests: Software Engineer, Frontend Engineer, Backend Engineer or Full Stack Engineer (Senior level).
+- 📫 You can [view my resume](https://cv.oluwasetemi.dev/) and contact me by emailing mailtobolaji@gmail.com.
 
 ---
 
