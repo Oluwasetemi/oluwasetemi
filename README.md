@@ -6,11 +6,11 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[2021 in Review](https://oluwasetemi.dev/2021-in-review/) - 2021-12-28
+[Building an e-commerce app continued(authentication) part 3](https://oluwasetemi.dev/blog/building-an-e-commerce-app-continued-authentication-part-3/) - 2024-08-05
 
-[Developer Experience with Command Line Interface(CLI) Tools](https://oluwasetemi.dev/developer-experience-with-command-line-interface-cli-tools/) - 2021-11-16
+[Scheduling with Timeout and Interval, Decorators, forwarding, call/apply and function binding](https://oluwasetemi.dev/blog/scheduling-with-timeout-and-interval-decorators-forwarding-call-apply-and-function-binding/) - 2024-08-04
 
-[Mentorship Series: Kolade Will Not Just Give Up](https://oluwasetemi.dev/mentorship-series-kolade-will-not-just-give-up/) - 2021-11-11
+[2021 in Review](https://oluwasetemi.dev/blog/2021-in-review/) - 2021-12-28
 <!-- blog end -->
 
 **Here's a quick summary about me**:

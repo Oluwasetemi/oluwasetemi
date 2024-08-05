@@ -27,9 +27,23 @@ const fetchFeed = async (url: string): Promise<string[]> => {
   }
 };
 
+// TODO Implement a fix for the URL transformation issue in oluwasetemi.dev such that getFeed function return `https://oluwasetemi.dev/blog/` instead of `https://oluwasetemi.dev/`
+function transformUrl(url: string): string {
+  // Check if the URL starts with the expected string
+  const prefix = 'https://oluwasetemi.dev/';
+  if (url.startsWith(prefix)) {
+    // Replace the initial part of the URL with the new one
+    const newPrefix = 'https://oluwasetemi.dev/blog/';
+    return url.replace(prefix, newPrefix);
+  }
+  // If the URL doesn't match the expected pattern, return it unchanged
+  return url;
+}
+
 const formatFeedEntry = ({ title, link, isoDate }: Entry): string => {
   const date = isoDate ? new Date(isoDate).toISOString().slice(0, 10) : "";
-  return date ? `[${title}](${link}) - ${date}` : `[${title}](${link})`;
+  console.log(transformUrl(link!))
+  return date ? `[${title}](${transformUrl(link!)}) - ${date}` : `[${title}](${transformUrl(link!)})`;
 };
 
 const replaceChunk = (
