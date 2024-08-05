@@ -11,14 +11,6 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 [Developer Experience with Command Line Interface(CLI) Tools](https://oluwasetemi.dev/developer-experience-with-command-line-interface-cli-tools/) - 2021-11-16
 
 [Mentorship Series: Kolade Will Not Just Give Up](https://oluwasetemi.dev/mentorship-series-kolade-will-not-just-give-up/) - 2021-11-11
-
-[Generators In JavaScript](https://oluwasetemi.dev/generators-in-java-script/) - 2021-09-27
-
-[Migrated My Blog From Using Markdown To Support Both Markdown(MD) and MarkdownX(MDX)](https://oluwasetemi.dev/migrated-my-blog-from-md-to-mdx/) - 2021-09-10
-
-[Lessons Learnt Meeting My Mentor](https://oluwasetemi.dev/lesson-learnt-meeting-my-mentor/) - 2021-08-25
-
-[Writing test for the vitejs react app starter](https://oluwasetemi.dev/writing-test-for-the-vitejs-react-app-starter/) - 2021-08-17
 <!-- blog end -->
 
 **Here's a quick summary about me**:
