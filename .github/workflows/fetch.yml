@@ -1,0 +1,31 @@
+name: Fetch latest posts from blog for README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: oven-sh/setup-bun@v1
+    - uses: actions/cache@v4
+      name: Configure bun caching
+      with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-${{ matrix.bun }}-bun-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.bun }}-bun-
+    - run: bun install
+    - run: bun run readme
+    - name: Commit and push if changed
+      run: |-
+        git diff
+        git config --global user.email "${{ vars.USER_EMAIL }}"
+        git config --global user.name "${{ vars.USER_NAME }}"
+        git add -A
+        git commit -m "chore: update blog posts" || exit 0
+        git push

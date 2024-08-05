@@ -1,0 +1,17 @@
+{
+  "name": "oluwasetemi",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "readme":"bun src/feed.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
