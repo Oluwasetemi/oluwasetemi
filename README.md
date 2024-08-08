@@ -25,6 +25,10 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 - 💼 Job interests: Software Engineer, Frontend Engineer, Backend Engineer or Full Stack Engineer (Senior level).
 - 📫 You can [view my resume](https://cv.oluwasetemi.dev/) and contact me by emailing setemiojo@gmail.com.
 
+
+<!-- show metrics -->
+<img align="center" src="/metrics.svg" alt="Metrics" width="400">
+
 ---
 
 | <img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwasetemi&show_icons=true&include_all_commits=true&hide_border=true" alt="Setemi's GitHub stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwasetemi&langs_count=8&layout=compact&hide_border=true" alt="Setemi's GitHub stats" /> |
