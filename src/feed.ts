@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import rssParser from "rss-parser";
 
-const DEFAULT_N = 3;
+const DEFAULT_N = 6;
 
 type Entry = {
   title?: string;
