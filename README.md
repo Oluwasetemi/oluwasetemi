@@ -6,6 +6,8 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
+[Object Properties Configuration in JavaScript](https://oluwasetemi.dev/blog/blog/object-properties-configuration-in-java-script/) - 2024-08-09
+
 [Introduction To Data Structures:Implementing LinkedList](https://oluwasetemi.dev/blog/blog/introduction-to-data-structures-implementing-linked-list/) - 2024-08-07
 
 [Building an e-commerce app continued(authentication) part 3](https://oluwasetemi.dev/blog/blog/building-an-e-commerce-app-continued-authentication-part-3/) - 2024-08-05
@@ -15,8 +17,6 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 [2021 in Review](https://oluwasetemi.dev/blog/blog/2021-in-review/) - 2021-12-28
 
 [Developer Experience with Command Line Interface(CLI) Tools](https://oluwasetemi.dev/blog/blog/developer-experience-with-command-line-interface-cli-tools/) - 2021-11-16
-
-[Mentorship Series: Kolade Will Not Just Give Up](https://oluwasetemi.dev/blog/blog/mentorship-series-kolade-will-not-just-give-up/) - 2021-11-11
 <!-- blog end -->
 
 **Here's a quick summary about me**:
