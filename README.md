@@ -6,17 +6,17 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[Introduction To Data Structures:Implementing LinkedList](https://oluwasetemi.dev/blog/blog/introduction-to-data-structures-implementing-linked-list/) - 2024-08-07
+[Classes in JavaScript](https://oluwasetemi.dev/blog/blog/classes-in-java-script/) - 2024-09-01
 
-[Building an e-commerce app continued(authentication) part 3](https://oluwasetemi.dev/blog/blog/building-an-e-commerce-app-continued-authentication-part-3/) - 2024-08-05
+[After Authentication, GitHub, Google, Magic Links and Pass Key Authentication in ?](https://oluwasetemi.dev/blog/blog/after-authentication-git-hub-google-magic-links-and-pass-key-authentication-in/) - 2024-09-01
 
-[Scheduling with Timeout and Interval, Decorators, forwarding, call/apply and function binding](https://oluwasetemi.dev/blog/blog/scheduling-with-timeout-and-interval-decorators-forwarding-call-apply-and-function-binding/) - 2024-08-04
+[Setting up for the Forgot Password and Reset Password flow](https://oluwasetemi.dev/blog/blog/setting-up-for-the-forgot-password-and-reset-password-flow/) - 2024-09-01
 
-[2021 in Review](https://oluwasetemi.dev/blog/blog/2021-in-review/) - 2021-12-28
+[Prototypes and Inheritance in JavaScript](https://oluwasetemi.dev/blog/blog/prototypes-and-inheritance-in-java-script/) - 2024-09-01
 
-[Developer Experience with Command Line Interface(CLI) Tools](https://oluwasetemi.dev/blog/blog/developer-experience-with-command-line-interface-cli-tools/) - 2021-11-16
+[Answer To An Honest Question About Learning Tech In Nigeria](https://oluwasetemi.dev/blog/blog/answer-to-an-honest-question-about-learning-tech-in-nigeria/) - 2024-09-01
 
-[Mentorship Series: Kolade Will Not Just Give Up](https://oluwasetemi.dev/blog/blog/mentorship-series-kolade-will-not-just-give-up/) - 2021-11-11
+[Object Properties Configuration in JavaScript](https://oluwasetemi.dev/blog/blog/object-properties-configuration-in-java-script/) - 2024-08-09
 <!-- blog end -->
 
 **Here's a quick summary about me**:
