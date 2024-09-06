@@ -29,7 +29,7 @@ const fetchFeed = async (url: string): Promise<string[]> => {
 
 const formatFeedEntry = ({ title, link, isoDate }: Entry): string => {
   const date = isoDate ? new Date(isoDate).toISOString().slice(0, 10) : "";
-  
+
   return date ? `[${title}](${link}) - ${date}` : `[${title}](${link})`;
 };
 
@@ -37,7 +37,7 @@ const replaceChunk = (
   content: string,
   marker: string,
   chunk: string,
-  inline: boolean = false
+  inline: boolean = false,
 ): string => {
   const startMarker = `<!-- ${marker} start -->`;
   const endMarker = `<!-- ${marker} end -->`;
@@ -53,9 +53,9 @@ const replaceChunk = (
 
 const updateReadme = async (): Promise<void> => {
   const url = "https://www.oluwasetemi.dev/rss.xml";
-  const feeds = await fetchFeed(url);
 
   try {
+    const feeds = await fetchFeed(url);
     const readmePath = `${process.cwd()}/README.md`;
     let readmeContent = await fs.readFile(readmePath, "utf-8");
     readmeContent = replaceChunk(readmeContent, "blog", feeds.join("\n\n"));
