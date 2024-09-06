@@ -6,17 +6,7 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[Classes in JavaScript](https://oluwasetemi.dev/blog/classes-in-java-script/) - 2024-09-01
 
-[After Authentication, GitHub, Google, Magic Links and Pass Key Authentication in ?](https://oluwasetemi.dev/blog/after-authentication-git-hub-google-magic-links-and-pass-key-authentication-in/) - 2024-09-01
-
-[Setting up for the Forgot Password and Reset Password flow](https://oluwasetemi.dev/blog/setting-up-for-the-forgot-password-and-reset-password-flow/) - 2024-09-01
-
-[Prototypes and Inheritance in JavaScript](https://oluwasetemi.dev/blog/prototypes-and-inheritance-in-java-script/) - 2024-09-01
-
-[Answer To An Honest Question About Learning Tech In Nigeria](https://oluwasetemi.dev/blog/answer-to-an-honest-question-about-learning-tech-in-nigeria/) - 2024-09-01
-
-[Object Properties Configuration in JavaScript](https://oluwasetemi.dev/blog/object-properties-configuration-in-java-script/) - 2024-08-09
 <!-- blog end -->
 
 **Here's a quick summary about me**:
