@@ -12,9 +12,9 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 **Here's a quick summary about me**:
 
 - 😊 Pronouns: He/him
-- 👷 Currently a Fullstack Engineer at [Fluna](https://fluna.co)
-- 💡 Fun fact: I'm currently part-time tutor at AltSchool Africa [School of Software Engineering](https://altschoolafrica.com/schools/engineering).
-- 👨🏻‍💻 Streaming about JavaScript on Fridays and Reactjs on Saturdays 3pm EST or 9pm WAT on [youtube](https://youtube.com/@setemiojo), [twitch](https://twitch.tv/setemiojo) and [linkedin](https://www.linkedin.com/in/setemiojo/)
+- 👷 Currently works at TripleTen
+- 💡 Fun fact: I'm currently a contract tutor at AltSchool Africa [School of Software Engineering](https://altschoolafrica.com/schools/engineering).
+- 👨🏻‍💻 Streaming about JavaScript on Fridays and Reactjs on [youtube](https://youtube.com/@setemiojo), [twitch](https://twitch.tv/setemiojo) and [linkedin](https://www.linkedin.com/in/setemiojo/)
 - 🖋️ I write about my experience as an Engineer on [Oluwasetemi](https://oluwasetemi.dev)
 - 🌱 I’m currently learning TypeScript, JavaScript, Reactjs, and Python.
 - 😊 I’m looking for opportunities to help contribute to open source projects.
