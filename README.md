@@ -6,17 +6,17 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[2019 chrome developer summit](https://oluwasetemi.dev/blog/2019-chrome-developer-summit/)
+[Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - 9 months ago
 
-[2020 - The Review!](https://oluwasetemi.dev/blog/2020-the-review/)
+[Classes in JavaScript](https://oluwasetemi.dev/blog/classes-in-java-script/) - 9 months ago
 
-[2018 - The Review!](https://oluwasetemi.dev/blog/2018-the-review/)
+[After Authentication, GitHub, Google, Magic Links and Pass Key Authentication in ?](https://oluwasetemi.dev/blog/after-authentication-git-hub-google-magic-links-and-pass-key-authentication-in/) - 9 months ago
 
-[2019 - The Review](https://oluwasetemi.dev/blog/2019-the-review/)
+[Setting up for the Forgot Password and Reset Password flow](https://oluwasetemi.dev/blog/setting-up-for-the-forgot-password-and-reset-password-flow/) - 9 months ago
 
-[2021 in Review](https://oluwasetemi.dev/blog/2021-in-review/)
+[Prototypes and Inheritance in JavaScript](https://oluwasetemi.dev/blog/prototypes-and-inheritance-in-java-script/) - 9 months ago
 
-[After Authentication, GitHub, Google, Magic Links and Pass Key Authentication in ?](https://oluwasetemi.dev/blog/after-authentication-git-hub-google-magic-links-and-pass-key-authentication-in/)
+[Answer To An Honest Question About Learning Tech In Nigeria](https://oluwasetemi.dev/blog/answer-to-an-honest-question-about-learning-tech-in-nigeria/) - 9 months ago
 <!-- blog end -->
 
 **Here's a quick summary about me**:

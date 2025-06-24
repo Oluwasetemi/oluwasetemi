@@ -5,8 +5,10 @@ const DEFAULT_N = 6;
 
 type Entry = {
   title?: string;
+  description?: string;
   link?: string;
-  isoDate?: string;
+  pubDate?: string;
+  categories?: string[];
 };
 
 const fetchFeed = async (url: string): Promise<string[]> => {
@@ -27,10 +29,36 @@ const fetchFeed = async (url: string): Promise<string[]> => {
   }
 };
 
-const formatFeedEntry = ({ title, link, isoDate }: Entry): string => {
-  const date = isoDate ? new Date(isoDate).toISOString().slice(0, 10) : "";
+function getRelativeDate(isoDate: string) {
+  const date = new Date(isoDate);
+  const now = new Date();
+  const diffInMs = now.getTime() - date.getTime();
 
-  return date ? `[${title}](${link}) - ${date}` : `[${title}](${link})`;
+  const days = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+  const months = Math.floor(days / 30);
+  const years = Math.floor(days / 365);
+
+  if (years >= 1) {
+    return years === 1 ? 'last year' : `${years} years ago`;
+  } else if (months >= 1) {
+    return months === 1 ? 'last month' : `${months} months ago`;
+  } else if (days >= 7) {
+    const weeks = Math.floor(days / 7);
+    return weeks === 1 ? 'last week' : `${weeks} weeks ago`;
+  } else if (days > 0) {
+    return days === 1 ? 'yesterday' : `${days} days ago`;
+  } else {
+    return 'today';
+  }
+}
+
+const formatFeedEntry = ({ title, link, pubDate }: Entry): string => {
+  const isoDate = pubDate ? new Date(pubDate).toISOString().slice(0, 10) : "";
+
+  // convert to relative date
+  const relativeDate = getRelativeDate(isoDate);
+
+  return pubDate ? `[${title}](${link}) - ${relativeDate}` : `[${title}](${link})`;
 };
 
 const replaceChunk = (
@@ -60,7 +88,7 @@ const updateReadme = async (): Promise<void> => {
     let readmeContent = await fs.readFile(readmePath, "utf-8");
     readmeContent = replaceChunk(readmeContent, "blog", feeds.join("\n\n"));
     await fs.writeFile(readmePath, readmeContent, "utf-8");
-    console.log("README.md updated successfully!");
+    console.info("README.md updated successfully!");
   } catch (error) {
     console.error("Error updating README.md:", error);
   }
