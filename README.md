@@ -6,7 +6,17 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
+[2019 chrome developer summit](https://oluwasetemi.dev/blog/2019-chrome-developer-summit/)
 
+[2020 - The Review!](https://oluwasetemi.dev/blog/2020-the-review/)
+
+[2018 - The Review!](https://oluwasetemi.dev/blog/2018-the-review/)
+
+[2019 - The Review](https://oluwasetemi.dev/blog/2019-the-review/)
+
+[2021 in Review](https://oluwasetemi.dev/blog/2021-in-review/)
+
+[After Authentication, GitHub, Google, Magic Links and Pass Key Authentication in ?](https://oluwasetemi.dev/blog/after-authentication-git-hub-google-magic-links-and-pass-key-authentication-in/)
 <!-- blog end -->
 
 **Here's a quick summary about me**:
