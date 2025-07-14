@@ -6,7 +6,7 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - 9 months ago
+[Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - 10 months ago
 
 [Classes in JavaScript](https://oluwasetemi.dev/blog/classes-in-java-script/) - 10 months ago
 
