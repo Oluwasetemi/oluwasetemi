@@ -28,8 +28,8 @@ A Fullstack JavaScript/TypeScript(Node and React) engineer with a sound technica
 - 🖋️ I write about my experience as an Engineer on [Oluwasetemi](https://oluwasetemi.dev)
 - 🌱 I’m currently learning TypeScript, JavaScript, Reactjs, and Python.
 - 😊 I’m looking for opportunities to help contribute to open source projects.
-- 💼 Job interests: Software Engineer, Frontend Engineer, Backend Engineer or Full Stack Engineer (Senior level).
-- 📫 You can [view my resume](https://cv.oluwasetemi.dev/) and contact me by emailing setemiojo@gmail.com.
+- 💼 Job interests: Software Engineer, Frontend Engineer, or Full Stack Engineer (Senior level).
+- 📫 You can and contact me by emailing setemiojo@gmail.com.
 
 
 
