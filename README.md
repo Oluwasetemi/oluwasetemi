@@ -6,7 +6,7 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 5 days ago
+[complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 6 days ago
 
 [Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - 11 months ago
 
