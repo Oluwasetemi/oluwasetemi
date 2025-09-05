@@ -1,5 +1,7 @@
 import { promises as fs } from "fs";
-import rssParser from "rss-parser";
+import { extract } from '@extractus/feed-extractor'
+
+const RSS_URL = "https://www.oluwasetemi.dev/rss.xml";
 
 const DEFAULT_N = 6;
 
@@ -7,17 +9,17 @@ type Entry = {
   title?: string;
   description?: string;
   link?: string;
-  pubDate?: string;
   categories?: string[];
+  published?: string;
 };
 
-const fetchFeed = async (url: string): Promise<string[]> => {
+const fetchFeed = async (): Promise<string[]> => {
   try {
-    const parser = new rssParser();
-    const response = await parser.parseURL(url);
+    const data = await extract(RSS_URL) ?? { entries: [] };
+
     let feeds = [];
 
-    for (const item of response.items) {
+    for (const item of data?.entries ?? []) {
       if (item.title && item.link) feeds.push(formatFeedEntry(item));
       if (feeds.length === DEFAULT_N) break;
     }
@@ -52,21 +54,16 @@ function getRelativeDate(isoDate: string) {
   }
 }
 
-const formatFeedEntry = ({ title, link, pubDate }: Entry): string => {
-  const isoDate = pubDate ? new Date(pubDate).toISOString().slice(0, 10) : "";
+const formatFeedEntry = ({ title, link, published }: Entry): string => {
+  const isoDate = published ? new Date(published).toISOString().slice(0, 10) : "";
 
   // convert to relative date
   const relativeDate = getRelativeDate(isoDate);
 
-  return pubDate ? `[${title}](${link}) - ${relativeDate}` : `[${title}](${link})`;
+  return published ? `[${title}](${link}) - ${relativeDate}` : `[${title}](${link})`;
 };
 
-const replaceChunk = (
-  content: string,
-  marker: string,
-  chunk: string,
-  inline: boolean = false,
-): string => {
+function replaceChunk(content: string, marker: string, chunk: string, inline: boolean = false,): string {
   const startMarker = `<!-- ${marker} start -->`;
   const endMarker = `<!-- ${marker} end -->`;
 
@@ -80,10 +77,8 @@ const replaceChunk = (
 };
 
 const updateReadme = async (): Promise<void> => {
-  const url = "https://www.oluwasetemi.dev/rss.xml";
-
   try {
-    const feeds = await fetchFeed(url);
+    const feeds = await fetchFeed();
     const readmePath = `${process.cwd()}/README.md`;
     let readmeContent = await fs.readFile(readmePath, "utf-8");
     readmeContent = replaceChunk(readmeContent, "blog", feeds.join("\n\n"));

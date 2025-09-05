@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "readme":"bun src/feed.ts"
+    "readme": "bun src/feed.ts"
   },
   "devDependencies": {
     "@types/bun": "^1.1.6"
@@ -12,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@extractus/feed-extractor": "^7.1.7",
     "rss-parser": "^3.13.0"
   }
 }
