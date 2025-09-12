@@ -8,7 +8,7 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 <!-- blog start -->
 [complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 2 weeks ago
 
-[Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - 11 months ago
+[Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - 12 months ago
 
 [Classes in JavaScript](https://oluwasetemi.dev/blog/classes-in-java-script/) - last year
 
