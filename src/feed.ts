@@ -15,7 +15,11 @@ type Entry = {
 
 const fetchFeed = async (): Promise<string[]> => {
   try {
-    const data = await extract(RSS_URL) ?? { entries: [] };
+    const data = await extract(RSS_URL, undefined, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; RSS-Feed-Reader/1.0)'
+      }
+    }) ?? { entries: [] };
 
     let feeds = [];
 
