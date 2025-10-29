@@ -13,29 +13,42 @@ type Entry = {
   published?: string;
 };
 
-const fetchFeed = async (): Promise<string[]> => {
-  try {
-    const data = await extract(RSS_URL, undefined, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive'
+const fetchFeed = async (retries = 3, delay = 2000): Promise<string[]> => {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      console.log(`Attempt ${attempt} of ${retries} to fetch RSS feed...`);
+
+      const data = await extract(RSS_URL, undefined, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+          'Accept-Encoding': 'gzip, deflate, br',
+          'Connection': 'keep-alive'
+        },
+      }) ?? { entries: [] };
+
+      let feeds = [];
+
+      for (const item of data?.entries ?? []) {
+        if (item.title && item.link) feeds.push(formatFeedEntry(item));
+        if (feeds.length === DEFAULT_N) break;
       }
-    }) ?? { entries: [] };
 
-    let feeds = [];
+      console.log(`Successfully fetched ${feeds.length} feeds`);
+      return feeds;
+    } catch (error) {
+      console.error(`Attempt ${attempt} failed:`, error);
 
-    for (const item of data?.entries ?? []) {
-      if (item.title && item.link) feeds.push(formatFeedEntry(item));
-      if (feeds.length === DEFAULT_N) break;
+      if (attempt < retries) {
+        console.log(`Waiting ${delay}ms before retry...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      } else {
+        console.error("All retry attempts failed. Could not fetch feed.");
+      }
     }
-
-    return feeds;
-  } catch (error) {
-    console.error("Error fetching or parsing the feed:", error);
-    return [];
   }
+
+  return [];
 };
 
 function getRelativeDate(isoDate: string) {
