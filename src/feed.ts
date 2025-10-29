@@ -17,7 +17,10 @@ const fetchFeed = async (): Promise<string[]> => {
   try {
     const data = await extract(RSS_URL, undefined, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; RSS-Feed-Reader/1.0)'
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive'
       }
     }) ?? { entries: [] };
 
@@ -83,6 +86,12 @@ function replaceChunk(content: string, marker: string, chunk: string, inline: bo
 const updateReadme = async (): Promise<void> => {
   try {
     const feeds = await fetchFeed();
+
+    if (feeds.length === 0) {
+      console.warn("No feeds fetched. Skipping README update.");
+      return;
+    }
+
     const readmePath = `${process.cwd()}/README.md`;
     let readmeContent = await fs.readFile(readmePath, "utf-8");
     readmeContent = replaceChunk(readmeContent, "blog", feeds.join("\n\n"));
