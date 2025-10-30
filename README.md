@@ -6,7 +6,9 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[building-apollo-server-hono-integration](https://oluwasetemi.dev/blog/building-apollo-server-hono-integration/) - last week
+[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - yesterday
+
+[building-apollo-server-hono-integration](https://oluwasetemi.dev/blog/building-apollo-server-hono-integration/) - 2 weeks ago
 
 [complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 2 months ago
 
@@ -15,8 +17,6 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 [Classes in JavaScript](https://oluwasetemi.dev/blog/classes-in-java-script/) - last year
 
 [After Authentication, GitHub, Google, Magic Links and Pass Key Authentication in ?](https://oluwasetemi.dev/blog/after-authentication-git-hub-google-magic-links-and-pass-key-authentication-in/) - last year
-
-[Setting up for the Forgot Password and Reset Password flow](https://oluwasetemi.dev/blog/setting-up-for-the-forgot-password-and-reset-password-flow/) - last year
 <!-- blog end -->
 
 **Here's a quick summary about me**:
