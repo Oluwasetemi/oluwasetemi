@@ -6,9 +6,9 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - 5 days ago
+[Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - 6 days ago
 
-[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - 6 days ago
+[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - last week
 
 [building-apollo-server-hono-integration](https://oluwasetemi.dev/blog/building-apollo-server-hono-integration/) - 2 weeks ago
 
