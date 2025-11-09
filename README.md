@@ -6,6 +6,8 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
+[Introducing the new Set methods in ES2025](https://oluwasetemi.dev/blog/introducing-the-new-set-method-in-es2025/) - yesterday
+
 [Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - last week
 
 [From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - last week
@@ -15,8 +17,6 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 [complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 2 months ago
 
 [Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - last year
-
-[Classes in JavaScript](https://oluwasetemi.dev/blog/classes-in-java-script/) - last year
 <!-- blog end -->
 
 **Here's a quick summary about me**:
