@@ -6,11 +6,11 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 
 # 5 Recent Blog Posts from my [blog](https://oluwasetemi.dev)
 <!-- blog start -->
-[Introducing the new Set methods in ES2025](https://oluwasetemi.dev/blog/introducing-the-new-set-method-in-es2025/) - 2 weeks ago
+[Introducing the new Set methods in ES2025](https://oluwasetemi.dev/blog/introducing-the-new-set-method-in-es2025/) - 3 weeks ago
 
-[Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - 4 weeks ago
+[Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - last month
 
-[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - 4 weeks ago
+[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - last month
 
 [building-apollo-server-hono-integration](https://oluwasetemi.dev/blog/building-apollo-server-hono-integration/) - last month
 
