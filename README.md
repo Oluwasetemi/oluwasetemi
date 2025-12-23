@@ -14,7 +14,7 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 
 [building-apollo-server-hono-integration](https://oluwasetemi.dev/blog/building-apollo-server-hono-integration/) - 2 months ago
 
-[complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 3 months ago
+[complete-guide-to-html-attributes](https://oluwasetemi.dev/blog/complete-guide-to-html-attributes/) - 4 months ago
 
 [Introductory Guide to ES2021](https://oluwasetemi.dev/blog/introductory-guide-to-es-2021/) - last year
 <!-- blog end -->
