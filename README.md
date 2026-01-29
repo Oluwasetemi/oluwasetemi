@@ -22,7 +22,6 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 **Here's a quick summary about me**:
 
 - 😊 Pronouns: He/him
-- 👷 Currently works at TripleTen
 - 💡 Fun fact: I'm currently a contract tutor at AltSchool Africa [School of Software Engineering](https://engineering.altschoolafrica.com/).
 - 👨🏻‍💻 Streaming about JavaScript on Fridays and Reactjs on [youtube](https://youtube.com/@setemiojo), [twitch](https://twitch.tv/setemiojo) and [linkedin](https://www.linkedin.com/in/setemiojo/)
 - 🖋️ I write about my experience as an Engineer on [Oluwasetemi](https://oluwasetemi.dev)
