@@ -8,9 +8,9 @@ A Full-stack JavaScript/TypeScript(Node and React) engineer with a sound technic
 <!-- blog start -->
 [Introducing the new Set methods in ES2025](https://oluwasetemi.dev/blog/introducing-the-new-set-method-in-es2025/) - 4 months ago
 
-[Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - 4 months ago
+[Designing Data-Intensive Applications - What I Learned from Part 1: Foundations of Data Systems](https://oluwasetemi.dev/blog/what-i-learned-from-part-1-foundations-of-data-systems/) - 5 months ago
 
-[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - 4 months ago
+[From 10 Lines to 100 Retries: Building a Git Clone Function That Doesn't Quit](https://oluwasetemi.dev/blog/from-10-lines-to-100-retries-building-a-git-clone-function-that-doesnt-quit/) - 5 months ago
 
 [building-apollo-server-hono-integration](https://oluwasetemi.dev/blog/building-apollo-server-hono-integration/) - 5 months ago
 
